@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b4c29ddb3cf21d4e9b0596a8ba26af7, type: 3}
+  m_Name: ItemDatabase
+  m_EditorClassIdentifier: 
+  itemList:
+  - itemName: 
+    itemID: 0
+    itemDesc: 'If you drink this nice bottle you will get some health back.
+
+
+      +
+      20 Health'
+    itemIcon: {fileID: 0}
+    itemModel: {fileID: 0}
+    itemValue: 1
+    itemType: 2
+    itemWeight: 0
+    maxStack: 0
+    indexItemInList: 999
+    rarity: 0
+    itemAttributes: []
+  - itemName: "Ep\xE9e en fer"
+    itemID: 1
+    itemDesc: "Une \xE9p\xE9e permettant de se battre."
+    itemIcon: {fileID: 21300000, guid: f1c6570407044a142939d26cbd919c99, type: 3}
+    itemModel: {fileID: 6020231957938736348, guid: 1c84b5c7fc3319bee8d9ec874eb7588d, type: 3}
+    itemValue: 10
+    itemType: 1
+    itemWeight: 5
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 10
+    itemAttributes:
+    - attributeName: Damage
+      attributeValue: 10
+  - itemName: Casque en fer
+    itemID: 2
+    itemDesc: Un casque basique.
+    itemIcon: {fileID: 21300000, guid: 98f5e61dc86e9814d8c8d9e8e54ac417, type: 3}
+    itemModel: {fileID: 25974266011633767, guid: ed14760f56fc0880ba63dfaf1ab0f36e, type: 3}
+    itemValue: 10
+    itemType: 4
+    itemWeight: 5
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 10
+    itemAttributes:
+    - attributeName: Armor
+      attributeValue: 10
